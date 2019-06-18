@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("Hey Khoa")
     }
 
     @IBAction func unwindFromSkillVC(undwindSegue: UIStoryboardSegue) {
