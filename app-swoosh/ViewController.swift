@@ -15,7 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hey Khoa")
+		print("What is up today?")
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+	}
+	
+	func createPrintStatements() {
+		print("Create print statements")
+	}
 
     @IBAction func unwindFromSkillVC(undwindSegue: UIStoryboardSegue) {
         
